@@ -1,7 +1,7 @@
 import pydirectinput as Dir
 import pyautogui as P
-import cv2 as C
-import numpy as NP
+import cv2 as cv
+import numpy as np
 from time import sleep
 from ahk import AHK
 
