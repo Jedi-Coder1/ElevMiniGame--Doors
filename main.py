@@ -14,6 +14,7 @@ Y910 = 846
 A = AHK()
 P.FAILSAFE = False
 
+
 while True:
     #1
     if P.locateCenterOnScreen('OneOn.png'):
