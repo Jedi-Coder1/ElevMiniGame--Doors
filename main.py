@@ -1,7 +1,6 @@
 import pydirectinput as Dir
 import pyautogui as P
-import cv2 as cv
-import numpy as np
+import keyboard as key
 from time import sleep
 from ahk import AHK
 
@@ -38,7 +37,7 @@ while True:
         A.click()
         sleep(0.5)
     #4
-    if Dir.locateCenterOnScreen('FourOn.png'):
+    if P.locateCenterOnScreen('FourOn.png'):
         print('Four Found')
         Dir.moveTo(970, Y34)
         sleep(0.1)
